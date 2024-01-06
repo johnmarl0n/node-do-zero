@@ -1,26 +1,26 @@
-POST http://localhost:3333/videos
+POST https://node-do-zero-3y7f.onrender.com/videos
 Content-Type: application/json
 
 {
-  "title": "Video Node",
+  "title": "Video novo online",
   "description": "Esse é o primeiro vídeo",
   "duration": 180
 }
 
 ###
 
-GET http://localhost:3333/videos
+GET https://node-do-zero-3y7f.onrender.com/videos
 
 ###
 
-PUT http://localhost:3333/videos/b7eca2a3-9f5e-4443-865a-4d17f26a7b49
+PUT https://node-do-zero-3y7f.onrender.com/videos/459434d5-c6e9-4524-adf9-b00f8c7c4c9e
 Content-Type: application/json
 
 {
-  "title": "Video 02",
+  "title": "Teste Update",
   "description": "Esse é o primeiro vídeo",
   "duration": 180
 }
 
 ###
-DELETE http://localhost:3333/videos/b7eca2a3-9f5e-4443-865a-4d17f26a7b49
+DELETE https://node-do-zero-3y7f.onrender.com/videos/459434d5-c6e9-4524-adf9-b00f8c7c4c9e
